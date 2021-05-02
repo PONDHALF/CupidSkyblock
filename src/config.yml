@@ -1,0 +1,101 @@
+no-permission-message: "&cI''m sorry. but you do not have permission to perform this
+  command. Please contact the server administrator if you believe that this
+  is a mistake."
+
+# %earn_level% amount of level
+earn-farm-message: "&e# &aYou got earn +%earn_level% Farming XP"
+earn-woodcutting-message: "&e# &aYou got earn +%earn_level% WoodCutting XP"
+earn-miner-message: "&e# &aYou got earn +%earn_level% Miner XP"
+
+not-ready-earn-message: "&4# &c&oShift + Left Click &cto do that!"
+
+message-break-in-island: "&4# &cYou can't do that!"
+
+error-message: "&4# &cYou can't do that!"
+
+pickaxe-require-message: '&4# &cYou need to have pickaxe to do this!'
+
+warning-block-cooldown: "&4# &cThat's block is cooldown please wait.!"
+
+maximum-of-stats: 10
+maximum-of-experiences: 10
+
+bot-token: 'NzM2ODkyMDU3MjYzODAwNDAx.Xx1aNQ.6xb_9BnaePj2UL93tEhOtt_kweM'
+
+DamageIndicator:
+  Enabled: true
+  Player: true
+  Monster: true
+  Animals: true
+  # Use %health% for the regain health you get
+  # Use %damage% for the damage you get
+  Format:
+    EntityRegain: '&7+&a%health%'
+    EntityDamage: '&7-&c%damage%'
+    # Here you define the decimal format for the damage and health
+    # See https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html
+    # for more information.
+    Decimal: '#.##'
+  # Distance in Y axis from the entity where we should spawn the damage indicator
+  # A distance of 2 is recommended for 1.8 servers
+  Distance: 1.6
+  # List of disabled entity types that shouldn't spawn damage indicators
+  # See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+  # for all possible entities.
+  # If you don't want to disable entities, remove elements from the list set it to
+  # Disabled Entities: []
+  Disabled Entities: []
+  # List of spawn reasons that we must listen and mark entities so they won't spawn
+  # damage indicators.
+  # See https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+  # for all possible spawn reasons.
+  # If you don't want to disable for spawn reasons, remove elements from the list set it to
+  # Disabled Spawn Reasons: []
+  Disabled Spawn Reasons:
+  - SPAWNER
+  # List of damage causes that we must ignore for damage indicators.
+  # See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+  # for all possible damage causes.
+  # If you don't want to disable for damage causes, remove elements from the list set it to
+  # Disabled Damage Causes: []
+  Disabled Damage Causes:
+  - SUICIDE
+  # Enable or disable damage indicators for players who are sneaking, it is recommended to disable for PvP servers.
+  # true: damage indicators are shown even if you're sneaking.
+  # false: damage indicators aren't shown when you're sneaking.
+  Sneaking: false
+
+Farming:
+  non-tools:
+    earn: 0.0
+  use-tools:
+    earn: 0.0
+
+WoodCutting:
+  non-tools:
+    earn: 0.0
+  use-tools:
+    earn: 0.0
+
+Miner:
+  COAL_ORE:
+    earn: 0.0
+  IRON_ORE:
+    earn: 0.0
+  DIAMOND_ORE:
+    earn: 0.0
+  EMERALD_ORE:
+    earn: 0.0
+  LAPIS_ORE:
+    earn: 0.0
+  GOLD_ORE:
+    earn: 0.0
+  REDSTONE_ORE:
+    earn: 0.0
+  NETHER_QUARTZ_ORE:
+    earn: 0.0
+
+MenuItem:
+  Display: 'EXAMPLE'
+  Lore:
+    - 'EXAMPLE'
