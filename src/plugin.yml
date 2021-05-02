@@ -1,0 +1,20 @@
+name: CupidSkyblock
+version: 1.0.0
+author: PONDHALF
+main: com.cupidofficial.CupidSkyblock
+api-version: 1.13
+depend:
+- IridiumSkyblock
+- PlaceholderAPI
+- JDA
+softdepend:
+- ProtocolLib
+commands:
+  test:
+    usage: /<command>
+  adminprofile:
+    description: Admin command for edit stats of players
+    usage: /<command>
+  profile:
+    description: show stats of player
+    usage: /<command>
