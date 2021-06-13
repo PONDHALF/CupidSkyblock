@@ -20,7 +20,7 @@ warning-block-cooldown: "&4# &cThat's block is cooldown please wait.!"
 maximum-of-stats: 10
 maximum-of-experiences: 10
 
-bot-token: 'NzM2ODkyMDU3MjYzODAwNDAx.Xx1aNQ.6xb_9BnaePj2UL93tEhOtt_kweM'
+bot-token: ''
 
 DamageIndicator:
   Enabled: true
