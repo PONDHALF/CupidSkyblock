@@ -1,6 +1,6 @@
 # CupidSkyblock
 A Skyblock for Cupid Server
 
-WARN This plugin isn't completely!!
+WARN This plugin isn't completed!!
 
 Use api Iridium Skyblock: https://www.spigotmc.org/resources/iridium-skyblock-1-8-1-17.62480/
